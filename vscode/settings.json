@@ -1,0 +1,69 @@
+{
+    // Font and Editor Display
+    "editor.fontFamily": "SF Mono, Fira Code, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 22,
+    "editor.fontLigatures": true,
+
+    // Editor Layout and Behavior
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": false,
+    "editor.rulers": [80, 120],
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": true,
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 80,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.scrollBeyondLastLine": true,
+    "editor.smoothScrolling": true,
+
+    // Code Syntax and IntelliSense
+    "editor.suggestSelection": "first",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    "editor.parameterHints.enabled": true,
+    "editor.snippetSuggestions": "top",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+
+    // Workspace and File Management
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/__pycache__": true
+    },
+    "files.associations": {
+        "*.jsx": "javascriptreact",
+        "*.tsx": "typescriptreact"
+    },
+    "files.autoSave": "onFocusChange",
+
+    // Theme and Visual Enhancements
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": true,
+
+    // Breadcrumbs Navigation
+    "breadcrumbs.enabled": true,
+
+    // Terminal Integration
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontFamily": "'Courier New', monospace",
+
+    // Git Integration
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+
+    // Extensions Recommendations
+    "extensions.ignoreRecommendations": false,
+
+    // Miscellaneous
+    "window.zoomLevel": 0,
+    "editor.cursorBlinking": "expand",
+    "editor.mouseWheelScrollSensitivity": 1.5
+}

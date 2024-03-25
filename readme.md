@@ -1,3 +1,4 @@
 # dotfiles 
 my personal configz
-contact: kylewillis@me.com
+
+[kylewillis@me.com](mailto:kylewillis@me.com)
